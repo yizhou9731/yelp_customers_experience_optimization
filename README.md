@@ -13,6 +13,23 @@ Methods:
 Binary classification; Multiclass classification; Aspect Based Sentiment Analysis
 
 
+Platforms: Google Cloud Platform, PySpark: Spark NLP, John Snow Lab
+
+
+Models: 
+Binary classification:  Logistic Regression, Random Forest, Linear SVC 
+Aspect Based Sentiment Analysis: Named-entity recognition
+
+
+Challenges: 
+1. Imbalanced Data: fake reviews with labels
+   Solution: Undersampling, Oversampling, Class weight 
+2. Platform Limitation: PySpark does not have a  SMOTE package 
+
+
+
+
+
 
 
 
